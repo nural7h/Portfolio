@@ -16,7 +16,7 @@
         <ul id="sidemenu">
           <li><a href="#header">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li> 
+          <li><a href="#skills">Skills</a></li> 
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
           <i id="fas" class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
@@ -24,8 +24,8 @@
         <i id="fas" class="fa-solid fa-bars" onclick="openmenu()"></i>
       </nav>
       <div class="header-text">
-        <p>Software Engineering</p>
-        <h1>Hi, I'm <span>Nural</span> <br> Welcome to my <br>website!</h1>
+        <p>Software Engineer</p>
+        <h1>Hi, I'm <span>Nuri.</span> <br> Welcome to my <br>website!</h1>
       </div>
     </div>
   </div>
@@ -38,25 +38,27 @@
         </div>
         <div class="about-col-2">
           <h1 class="subtitle">About me</h1>
-          <p>Passionate software engineering student, looking forward to be part of effective and innovative projects where I can apply my academic knowledge and experience.</p>
+          <p>I consider myself as a dedicated young professional, currently in
+            my third semester in VIA University College. As well as motivated, I
+            am an ambitious person. Responsible and open-minded, with great
+            communicating skills, experienced in collaborating with classmates
+            to complete two semester projects. I am willing to work, live, learn
+            and get any kind of experience in Denmark.</p>
 
           <div class="tab-titles">
-            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links active-link" onclick="opentab('youtube')">Current work</p>
             <p class="tab-links" onclick="opentab('experience')">Experience</p>
             <p class="tab-links" onclick="opentab('education')">Education</p>
           </div>
           <div class="tab-contents active-tab" id="skills">
-            <ul>
-              <li><span>Java</span> <br>Implementing a distribution system</li>
-              <li><span>C#</span> <br>WEB API and Blazor services</li>
-              <li><span>Java</span> <br>Implementing a distribution system</li>
-            </ul>
+            <p>Check out our group's latest project.</p>
+            <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/VKWVDOkdPik" frameborder="0" allowfullscreen></iframe>
           </div>
           <div class="tab-contents" id="experience">
             <ul>
-              <li><span>2022</span> <br>Semester project - Single user system</li>
               <li><span>2023</span> <br>Semester project - Multi-user system</li>
-              <li><span>2023</span> <br>Implementing a distribution system</li>
+              <li><span>2023</span> <br>Semester project - Implementing a distribution system</li>
+              <li><span>2022</span> <br>Semester project - Single user system</li>              
             </ul>
           </div>
           <div class="tab-contents" id="education">
@@ -69,34 +71,63 @@
     </div>
   </div>
 
-  <!-- ---------services---------------- -->
-  <div id="services">
+  <!-- ---------skills---------------- -->
+  <div id="skills">
     <div class="container">
-      <h1 class="subtitle">My services</h1>
-      <div class="services-list">
+      <h1 class="subtitle">My Skills</h1>
+      <div class="skills-list">
         <div>
-          <i class="fa-solid fa-code"></i>
-          <h2>Web Api Blazor</h2>
-          <p> Hello hello hello hello hello hello hello hello hello hello hello 
-            hello hello hello hello hello hello hello hello 
-          </p>
-          <a href="#">Learn more</a>
+          <img src="images/java.png"> 
         </div>
         <div>
-          <i class="fa-brands fa-java"></i>
-          <h2>Java </h2>
-          <p> Hello hello hello hello hello hello hello hello hello hello hello 
-            hello hello hello hello hello hello hello hello 
-          </p>
-          <a href="#">Learn more</a>
+         <img src="images/c-sharp.png">         
         </div>
         <div>
-          <i class="fa-brands fa-app-store-ios"></i>
-          <h2>Forum</h2>
-          <p> Hello hello hello hello hello hello hello hello hello hello hello 
-            hello hello hello hello hello hello hello hello 
-          </p>
-          <a href="#">Learn more</a>
+          <img src="images/git.png">      
+        </div>
+        <div>
+          <img src="images/grpc.png"> 
+        </div>
+        <div>
+          <img src="images/jpa.png"> 
+        </div>
+        <div>
+          <img src="images/rest.png"> 
+        </div>
+        <div>
+          <img src="images/n.png"> 
+        </div>
+        <div>
+          <img src="images/mvvm.png"> 
+        </div>
+        <div>
+          <img src="images/scrum.png"> 
+          <h6>SCRUM</h6>
+        </div>
+        <div>
+          <img src="images/postgres.png"> 
+        </div>
+        <div>
+          <img src="images/bootstrap-logo.png"> 
+        </div>
+        <div>
+          <img src="images/CSS-Logo.png"> 
+        </div>
+        <div>
+          <img src="images/html.png"> 
+        </div>
+        <div>
+          <img src="images/oop.png"> 
+        </div>
+        <div>
+          <img src="images/pbl.png"> 
+        </div>
+        <div>
+          <img id="jira" src="images/jira.png"> 
+          <h6>Jira</h6>
+        </div>
+        <div>
+          <img id="jira" src="images/bloom.png">         
         </div>
       </div>
     </div>
@@ -106,47 +137,40 @@
   <div id="portfolio">
     <div class="container">
       <h1 class="subtitle">My Work</h1>
-      <div class="work-list">
-        <div class="work">
-          <img src="images/work-1.png">
-          <div class="layer">
-            <h3><b>House Hub</b></h3>
-            <p id="layer-text">The app is created with a purpose for the international students in denmark to find accomodation. Chek the link to GitHub</p>
-            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-          </div>
-        </div>
-        <div class="work">
-          <img src="images/work-2.png">
-          <div class="layer">
-            <h3><b>PC Planet</b></h3>
-            <p id="layer-text">The app is created with a purpose for the international students in denmark to find accomodation. Chek the link to GitHub</p>
-            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-          </div>
-        </div>
+      <div class="work-list">        
         <div class="work">
           <img src="images/work-3.png">
           <div class="layer">
+            <h3><b>PC Planet</b></h3>
+            <p id="layer-text">The app is a simulation of an online website for computer hardware. It is the most recent project, made by me and my two group mates in our current semester project.</p>
+            <a href="https://github.com/Sep3NRD/Sep3_WebApi_Blazor.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <a href="https://github.com/Sep3NRD/server-database.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/forum.jpg">
+          <div class="layer">
             <h3><b>Blazer Forum</b></h3>
-            <p id="layer-text">The app is created with a purpose for the international students in denmark to find accomodation. Chek the link to GitHub</p>
-            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <p id="layer-text">A forum application made for an assignment, inspired by Reddit.com.</p>
+            <a href="https://github.com/nural7h/Assingment1_DNP_v2.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-1.jpg">
+          <div class="layer">
+            <h3><b>House Hub</b></h3>
+            <p id="layer-text">The app is created with a purpose for the international students in denmark to find accomodation. You can check it out in GitHub</p>
+            <a href="https://github.com/SEPgroup4/HouseHub.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
           </div>
         </div>
         <div id="moreContent" class="work">
-          <img src="images/work-3.png">
+          <img src="images/todo.jpg">
           <div class="layer">
-            <h3><b>Web app</b></h3>
-            <p id="layer-text">The app is created with a purpose for the international students in denmark to find accomodation. Chek the link to GitHub</p>
-            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <h3><b>Todo App</b></h3>
+            <p id="layer-text">This a simple application for keeping track of tasks made by using HTML, CSS and JavaScript.</p>
+            <a href="https://github.com/nural7h/TodoApp.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
           </div>  
-        </div>
-        <div id="moreContent1" class="work">
-          <img src="images/work-3.png">
-          <div class="layer">
-            <h3><b>Web app</b></h3>
-            <p id="layer-text">The app is created with a purpose for the international students in denmark to find accomodation. Chek the link to GitHub</p>
-            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-          </div>
-        </div>
+        </div>        
       </div>
       <button id="toggleButton" class="btn" onclick="toggleContent()">See More</button>
     </div>
@@ -174,7 +198,6 @@
           <button type="submit" class="btn btn2">Send</button>
           <span id="msg"></span>
         </form>
-        
       </div>
     </div>
   </div>
@@ -252,20 +275,20 @@
       var moreContent1 = document.getElementById('moreContent1');
       var toggleButton = document.getElementById('toggleButton');  
 
-      if (moreContent.style.display === 'none' && moreContent1.style.display === 'none') {
+      if (moreContent.style.display === 'none') {
         moreContent.style.display = 'block';
-        moreContent1.style.display = 'block';
-        setTimeout(function() {
+       
+          setTimeout(function() {
           moreContent.style.opacity = '1';
-          moreContent1.style.opacity = '1';
+         
         }, 10);
         toggleButton.textContent = 'See Less';
       } else {
         moreContent.style.display = 'none';
-        moreContent1.style.display = 'none';
+        
         setTimeout(function() {
           moreContent.style.display = 'none';
-          moreContent1.style.display = 'none';
+          
         }, 500);
         toggleButton.textContent = 'See More';
       }
