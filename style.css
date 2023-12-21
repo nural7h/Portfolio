@@ -360,8 +360,8 @@ display: none;
 }
 
 @media only screen and (max-width: 600px){
+  
   #par {
-    font-size: 14px;
     width: 300px;
   }
   #youtubeVideo{
