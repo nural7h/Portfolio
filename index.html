@@ -272,30 +272,13 @@
     }
   </script>
    <script>
-    // Your JavaScript code here
-    let lastScrollTop = 0;
-
-    window.addEventListener("scroll", function () {
-      let st = window.scrollY || document.documentElement.scrollTop;
-
-      if (st > lastScrollTop) {
-        // Scroll down
-        document.getElementById("header").classList.remove("visible");
-      } else {
-        // Scroll up
-        document.getElementById("header").classList.add("visible");
-      }
-
-      lastScrollTop = st <= 0 ? 0 : st;
-    });
-
-    // Function to open and close the menu
+   var sidemenu = document.getElementById("sidemenu");
     function openmenu() {
-      document.getElementById("sidemenu").style.display = "flex";
+      sidemenu.style.right = "0";
     }
 
     function closemenu() {
-      document.getElementById("sidemenu").style.display = "none";
+      sidemenu.style.right = "-200px";
     }
   </script>
 
