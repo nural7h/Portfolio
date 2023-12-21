@@ -93,6 +93,11 @@ width: 100%;
 .about-col-2{
   flex-basis: 60%;
 }
+.about-col-2 p{
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px;
+}
 .subtitle{
   font-size: 60px;
   font-weight: 600;
@@ -349,6 +354,9 @@ form .btn2{
 }
 
 /* ---------------------responsive------------------------- */
+p {
+  font-size: 12px;
+}
 nav #fas{
 display: none;
 }
