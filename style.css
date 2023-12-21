@@ -354,14 +354,19 @@ form .btn2{
 }
 
 /* ---------------------responsive------------------------- */
-p {
-  font-size: 12px;
-}
+
 nav #fas{
 display: none;
 }
 
 @media only screen and (max-width: 600px){
+  #par {
+    font-size: 14px;
+    width: 300px;
+  }
+  #youtubeVideo{
+    width: 300px;
+  }
   #header{
     background-image: url(images/phone-background.jpg);
   }
