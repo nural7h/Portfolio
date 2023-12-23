@@ -91,6 +91,7 @@ width: 100%;
 }
 
 .about-col-2{
+  width: 100%;
   flex-basis: 60%;
 }
 .about-col-2 p{
@@ -360,9 +361,9 @@ display: none;
 }
 
 @media only screen and (max-width: 600px){
-  
   #par {
-    width: 300px;
+    width: 100%;
+    display: flex;
   }
   #youtubeVideo{
     width: 300px;
@@ -425,23 +426,39 @@ display: none;
     margin-bottom: 30px;
   }
   .about-col-2{
+    width: 100%;
     font-size: 14px;
+  }
+  .tab-titles {
+    
+    flex-direction:row;
   }
   .tab-links{
     font-size: 16px;
     margin-right: 20px;
   }
-
+  .tab-links.active-link::after{
+    width: 20%;
+  }
   .contact-left, .contact-right{
     flex-basis: 100%;
   }
-  .services-list div {
-    .services-list div {
+  .skills-list div {
+    .skills-list div {
       flex-basis: calc(50% - 20px); /* Two items per row, considering margin */
     }
   }
 }
-
+@media only screen and (max-width: 300px){
+  .tab-titles {
+    flex-direction:column;
+  }
+}
+@media only screen and (max-width: 360px){
+  #youtubeVideo{
+    width: 250px;
+  }
+}
 /* #msg{
   color: #61b752;
   margin-top: -40px;
